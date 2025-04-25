@@ -4,7 +4,8 @@
 功能：使用 Matplotlib Widgets 实现参数交互、计算结果展示和 2D 干涉条纹模拟
 版本：2.9.5 (调整输入/输出小数位数)
 """
-
+import matplotlib
+matplotlib.use('TkAgg')  # or try 'Agg', 'Qt5Agg', etc.
 import sys
 import os
 import numpy as np
